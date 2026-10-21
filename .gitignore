@@ -1,8 +1,17 @@
-.env
-*.env
-secrets.txt
-.secrets
-.streamlit/secrets.toml
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python compiled bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+
+# OS / Editor temporary files
 .DS_Store
+Thumbs.db
+.vscode/
